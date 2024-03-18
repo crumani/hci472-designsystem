@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+
+  <title> Buttons - DivineWorks Mini Design System </title>
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <style>
+
+  </style>
+
+  <!-- Custom styles for this template -->
+  <link href="../css/sidebars.css" rel="stylesheet">
+
+  <!-- font and css stylsheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <main class="d-flex flex-nowrap">
+
+    <!-- This determines the width of the sidebar. Change if needed. -->
+    <div class="flex-shrink-0 p-3 bg-nav" style="width: 200px;">
+
+
+      <a href="../index.html"
+        class="d-flex align-items-center text-center pb-3 mb-3 link-light text-decoration-none border-bottom">
+
+        <img src="../img/logo1.png" class="card-img-top" alt="Black and white logo">
+      </a>
+
+      <ul class="list-unstyled ps-0">
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#foundations-collapse" aria-expanded="false">
+            Foundations
+          </button>
+          <div class="collapse" id="foundations-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="../foundation/type.html"
+                  class="link-light d-inline-flex text-decoration-none rounded">Typography</a></li>
+              <li><a href="../foundation/color.html"
+                  class="link-light d-inline-flex text-decoration-none rounded">Color</a></li>
+              <li><a href="../foundation/logo.html"
+                  class="link-light d-inline-flex text-decoration-none rounded">Logo</a></li>
+
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#components-collapse" aria-expanded="true">
+            Components
+          </button>
+          <div class="collapse show" id="components-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="component1.html"
+                  class="link-light d-inline-flex text-decoration-none rounded">Navbar</a></li>
+              <li><a href="#" class="link-light d-inline-flex text-decoration-none rounded">Buttons</a></li>
+              <li><a href="component3.html"
+                  class="link-light d-inline-flex text-decoration-none rounded">Footer</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#patterns-collapse" aria-expanded="false">
+            Page Patterns
+          </button>
+          <div class="collapse" id="patterns-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="../patterns/page1.html"
+                  class="link-light d-inline-flex text-decoration-none rounded">Homepage</a></li>
+              <li><a href="../patterns/page2.html" class="link-light d-inline-flex text-decoration-none rounded">Resume</a></li>
+            </ul>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+    <div class="b-example-divider b-example-vr"></div>
+
+    <!-- Page Content  -->
+    <div class="container-fluid overflow-auto">
+      <div class="row p-5">
+        <div id="content">
+          <div class="col-12 mb-5">
+            <h2>Buttons</h2>
+            <p> Buttons are used to take action on a webpage.</p>
+          </div>
+          <!--close column -->
+          <div class="col-12 mb-4">
+            <h3>Default</h3>
+            <p> This is the primary button for taking general actions.</p>
+          </div>
+          <h4>Example:</h4>
+          <div class="col-12">
+            <button class="btn-default">Default</button>
+          </div>
+
+          <!-- Code example - this is what the prism.js and css are for added in this page - replace: all '<' with &lt; and  '>' with &gt; and all quotes with &quot; -->
+
+          <div class="col-12 mb-5">
+            <h4>Code:</h4>
+
+            <div class="col code-background">
+              <pre class="language-markup"><code>
+
+      &lt;button class=&quot;btn-default"&gt;Default&lt;/button&gt; 
+              </code>
+              </pre> <!-- code -->
+            </div> <!--close column -->
+
+          </div>
+
+          <div class="col-12 mb-4">
+            <h3>Call-to-action</h3>
+            <p>This buttons is used for main actions, such as a call-to-action. Use this only once on a singular page. It can also be used alongside a default
+              button to show two options.</p>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-cta">Call-to-action</button>
+          </div>
+
+
+          <!-- code: replace: all '<' with &lt; and  '>' with &gt; and all quotes with &quot; -->
+
+          <div class="col-12 mb-3">
+            <h4>Code:</h4>
+
+            <div class="col code-background ">
+              <pre class="language-markup"><code>
+
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-cta&quot;&gt;Call-to-action&lt;/button&gt; 
+              </code>
+              </pre><!-- code -->
+            </div><!-- col -->
+
+          </div>
+
+          <div class="col-12">
+            <h3>Accessibility</h3>
+            <p> Ensure contrast adheres to <a href= "https://webaim.org/resources/contrastchecker/" target=”_blank”> WCAG 2.1 Guidlelines</a> with necessary contrast of the background and foreground. Using ARIA attributes enables human-centered experiences with screenreaders and other assistive techonology used by those with disabilities. Make sure the ARIA descriptions are understandable and clear enough for a wide audience.</p>
+
+          </div>
+        </div><!-- row  -->
+      </div><!-- container -->
+
+    </div> <!-- content  -->
+
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <script src="../js/sidebars.js"></script>
+  <script src="../js/prism.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+.bg-nav {
+    background-color: #321E09 !important;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    --text-size-80: 0.694rem;
+    --text-size-90: 0.833rem;
+    --text-size-100: 1rem;
+    --text-size-200: 1.25rem;
+    --text-size-300: 1.4rem;
+    --text-size-400: 1.6rem;
+    --text-size-500: 1.8rem;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #000000;
+    background: #FFFFFF;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    margin-top: 2.25rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 1.0;
+    letter-spacing: 0em;
+}
+
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    margin-top: 2.25rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 1.0;
+    letter-spacing: 0em;
+}
+
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    margin-top: 2.25rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    line-height: 1.0;
+    letter-spacing: 0em;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+small {
+    font-size: var(--text-size-90);
+}
+
+h6,
+.h6 {
+    font-size: var(--text-size-100);
+}
+
+h5,
+.h5 {
+    font-size: var(--text-size-100);
+}
+
+h4,
+.h4 {
+    font-size: var(--text-size-200);
+}
+
+h3,
+.h3 {
+    font-size: var(--text-size-300);
+}
+
+h2,
+.h2 {
+    font-size: var(--text-size-400);
+}
+
+h1,
+.h1 {
+    font-size: var(--text-size-500);
+}
+
+.text-size-80 {
+    font-size: var(--text-size-80);
+}
+
+.text-size-90 {
+    font-size: var(--text-size-90);
+}
+
+.text-size-100 {
+    font-size: var(--text-size-100);
+}
+
+.text-size-200 {
+    font-size: var(--text-size-200);
+}
+
+.text-size-300 {
+    font-size: var(--text-size-300);
+}
+
+.text-size-400 {
+    font-size: var(--text-size-400);
+}
+
+.text-size-500 {
+    font-size: var(--text-size-500);
+}
+
+a {
+    color: #EB5528;
+}
+
+code {
+    color: #321E09;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+/* buttons */
+.btn-default {
+    background-color: #EB5528;
+    border: 0px;
+    color: #F8F8F8;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.btn-default:hover {
+    background-color: #D3493A;
+}
+
+.btn-default:active {
+    background-color: #1E1E1E !important;
+    color: #F8F8F8 !important;
+}
+
+
+.btn-cta {
+    background-color: transparent;
+    border-color: #EB5528;
+    color: #1E1E1E;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.btn-cta:hover {
+    background-color: #EB5528;
+    color: #1E1E1E;
+}
+
+.btn-cta:active {
+    background-color: #1E1E1E !important;
+    color: #F8F8F8 !important;
+}
+

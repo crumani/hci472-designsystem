@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+
+  <title> Logo - DivineWorks Mini Design System </title>
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <style>
+
+  </style>
+
+  <!-- Custom styles for this template -->
+  <link href="../css/sidebars.css" rel="stylesheet">
+
+  <!-- font and css stylsheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <main class="d-flex flex-nowrap">
+
+    <!-- This determines the width of the sidebar. Change if needed. -->
+    <div class="flex-shrink-0 p-3 bg-nav" style="width: 200px;">
+
+
+      <a href="../index.html"
+        class="d-flex align-items-center text-center pb-3 mb-3 link-light text-decoration-none border-bottom">
+
+        <img src="../img/logo1.png" class="card-img-top" alt="Black and white logo">
+      </a>
+
+      <ul class="list-unstyled ps-0">
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#foundations-collapse" aria-expanded="true">
+            Foundations
+          </button>
+          <div class="collapse show" id="foundations-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="type.html" class="link-light d-inline-flex text-decoration-none rounded">Typography</a></li>
+              <li><a href="color.html" class="link-light d-inline-flex text-decoration-none rounded">Color</a></li>
+              <li><a href="#" class="link-light d-inline-flex text-decoration-none rounded">Logo</a></li>
+
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#components-collapse" aria-expanded="false">
+            Components
+          </button>
+          <div class="collapse" id="components-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="../components/component1.html"
+                  class="link-light d-inline-flex text-decoration-none rounded">Navbar</a></li>
+              <li><a href="../components/component2.html"
+                  class="link-light d-inline-flex text-decoration-none rounded">Buttons</a></li>
+              <li><a href="../components/component3.html"
+                  class="link-light d-inline-flex text-decoration-none rounded">Footer</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#patterns-collapse" aria-expanded="false">
+            Page Patterns
+          </button>
+          <div class="collapse" id="patterns-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="../patterns/page1.html"
+                  class="link-light d-inline-flex text-decoration-none rounded">Homepage</a></li>
+              <li><a href="../patterns/page2.html" class="link-light d-inline-flex text-decoration-none rounded">Resume</a></li>
+            </ul>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+    <div class="b-example-divider b-example-vr"></div>
+
+    <!-- Page Content  -->
+    <div class="container-fluid-fluid overflow-auto">
+      <div class="row p-5">
+        <div class="col">
+          <h2>Logo Variations</h2>
+          <p> Here are some logo variations for DivineWorks Mini Design System. </p>
+        </div> <!-- column -->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+          <div class="col">
+            <div class="card shadow h-100">
+              <img src="../img/logo1.png" class="card-img-top bg-nav" alt="Transparent white logo">
+              <div class="card-body">
+                <h4 class="card-title">Transparent</h4>
+                <p class="card-text"> This logo should be used against darker colored backgrounds. </p>
+              </div>
+            </div> <!-- close card 1 -->
+          </div> <!-- column -->
+          <div class="col">
+            <div class="card shadow h-100">
+              <img src="../img/logo2.png" class="card-img-top" alt="Black and white logo">
+              <div class="card-body">
+                <h4 class="card-title">Black and White (Favicon)</h4>
+                <p class="card-text"> This logo should be used as a favicon and against lighter colored backgrounds.</p>
+              </div>
+            </div> <!-- close card 2-->
+          </div> <!-- column -->
+          <div class="col">
+            <div class="card shadow h-100">
+              <img src="../img/logo3.png" class="card-img-top" alt="Black and white logo">
+              <div class="card-body">
+                <h4 class="card-title">Black and White (Inverse) </h4>
+                <p class="card-text"> This logo should be used against black backgrounds. </p>
+              </div>
+            </div> <!-- close card 2 -->
+          </div> <!-- column -->
+        </div> <!-- row -->
+      </div> <!-- container-->
+
+
+    </div> <!-- Content  -->
+
+
+
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <script src="../js/sidebars.js"></script>
+</body>
+
+</html>
